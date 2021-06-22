@@ -1,8 +1,6 @@
 @font-face {
-  font-family: 'Caviar Dreams';
-  font-size: normal;
-  font-weight: normal;
-  src: url("../fonts/CaviarDreams.ttf") format("truetype"), url("../fonts/CaviarDreams_Bold.ttf") format("truetype"), url("../fonts/CaviarDreams_BoldItalic.ttf") format("truetype"), url("../fonts/CaviarDreams_Italic.ttf") format("truetype");
+  font-family: Caviar dreams;
+  src: url("../../fonts/CaviarDreams.ttf");
 }
 
 body {
@@ -65,14 +63,13 @@ h1 {
   padding: 0.5em;
   width: 25em;
   opacity: 0.5;
-  -webkit-transition: width;
-  transition: width;
-  -webkit-transition: opacity 900ms;
-  transition: opacity 900ms;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 #pics:hover {
-  width: 30em;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   opacity: 1;
 }
 

@@ -1,8 +1,6 @@
 @font-face {
-  font-family: 'Caviar Dreams';
-  font-size: normal;
-  font-weight: normal;
-  src: url("../assets/fonts/CaviarDreams.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_Bold.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_BoldItalic.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_Italic.ttf") format("truetype");
+  font-family: "Caviar dreams";
+  src: url("../../fonts/CaviarDreams.ttf");
 }
 
 body {
@@ -14,8 +12,8 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   margin: 0px;
   padding: 0px;
-  font-family: 'Caviar Dreams';
-  color: #000;
+  font-family: "Caviar dreams";
+  color: black;
 }
 
 .fond {
@@ -42,7 +40,7 @@ a {
   padding: 30px 70px 240px 70px;
   background-image: url("https://images7.alphacoders.com/882/thumb-1920-882431.jpg");
   background-size: cover;
-  color: #fff;
+  color: white;
 }
 
 #form-button {

@@ -1,24 +1,13 @@
-@font-face
-{
-    font: {
-        family: 'Caviar Dreams';
-        size: normal;
-        weight: normal;
-    }
-    src:url('../assets/fonts/CaviarDreams.ttf') format('truetype'),
-        url('../assets/fonts/CaviarDreams_Bold.ttf') format('truetype'),
-        url('../assets/fonts/CaviarDreams_BoldItalic.ttf') format('truetype'),
-        url('../assets/fonts/CaviarDreams_Italic.ttf') format('truetype');
+@font-face {
+    font-family: "Caviar dreams";
+    src: url("../../fonts/CaviarDreams.ttf");
 }
 
 $red: #c2003c;
-$white: #fff;
-$black: #000;
 
-body
-{
+body {
     background: {
-        image: url('https://images5.alphacoders.com/379/thumb-1920-379572.png');
+        image: url("https://images5.alphacoders.com/379/thumb-1920-379572.png");
         repeat: no-repeat;
         size: cover;
         attachment: fixed;
@@ -27,56 +16,48 @@ body
     }
     margin: 0px;
     padding: 0px;
-    font-family: 'Caviar Dreams';
-    color: $black;
+    font-family: "Caviar dreams";
+    color: black;
 }
 
-.fond
-{
+.fond {
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 20px;
 }
 
 //NAV
-.logo
-{
+.logo {
     width: 50px;
 }
 
-ul
-{
+ul {
     margin: auto;
 }
 
-a
-{
+a {
     font-size: 1em;
     margin-right: 1em;
 }
 
-
 //FORM
-.contact-form
-{
+.contact-form {
     margin-top: 150px;
     margin-bottom: 150px;
     padding: 30px 70px 240px 70px;
-    background-image: url('https://images7.alphacoders.com/882/thumb-1920-882431.jpg');
+    background-image: url("https://images7.alphacoders.com/882/thumb-1920-882431.jpg");
     background-size: cover;
-    color: $white;
+    color: white;
 }
 
-#form-button
-{
+#form-button {
     margin-top: 10px;
 }
 
 //FOOTER
 .linkFooter {
     text-decoration: none;
-  }
+}
 
-.socialNetworks
-{
+.socialNetworks {
     width: 30px;
 }

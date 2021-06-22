@@ -1,13 +1,6 @@
 @font-face {
-    font: {
-        family: 'Caviar Dreams';
-        size: normal;
-        weight: normal;
-    }
-    src:url('../fonts/CaviarDreams.ttf') format('truetype'),
-    url('../fonts/CaviarDreams_Bold.ttf') format('truetype'),
-    url('../fonts/CaviarDreams_BoldItalic.ttf') format('truetype'),
-    url('../fonts/CaviarDreams_Italic.ttf') format('truetype');
+    font-family: Caviar dreams;
+    src: url("../../fonts/CaviarDreams.ttf");
 }
 
 * {
