@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Caviar dreams;
+    src: url("../../fonts/CaviarDreams.ttf");
+}
+
+$red: #c2003c;
+$white: #fff;
+$black: #000;
+
+body {
+    font-family: "Caviar Dreams";
+    background-image: url("https://images5.alphacoders.com/379/thumb-1920-379572.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: $white;
+}
+
+//NAV
+.logo {
+    width: 50px;
+}
+
+ul {
+    margin: auto;
+}
+
+a {
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+//MENU
+.container {
+    margin-top: 50px;
+}
+
+.card-columns {
+    column-count: 2;
+    color: $white;
+}
+
+// .section {
+//     //margin-top: 90px;
+// }
+
+.pancarte {
+    width: 50px;
+}
+
+.maki {
+    width: 30px;
+}
+
+.ramen {
+    width: 200px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 3.5em;
+}
+
+//FOOTER
+footer {
+    color: black;
+}
+
+.linkFooter {
+    text-decoration: none;
+}
+
+.socialNetworks {
+    width: 30px;
+}
+
+.beer {
+    float: right;
+    width: 150px;
+}
+
+.maki {
+    width: 50px;
+}
+
+#menu-title {
+    font-weight: 100;
+}
+
+.temaki {
+    width: 50px;
+}
+
+.hot-meal {
+    width: 50px;
+}
+
+.dessert {
+    width: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+        color: #c2003c;
+    }
+}
+
+#chicken {
+    width: 80px;
+}
+
+#tuna {
+    width: 50px;
+}
+
+#salmon {
+    width: 100px;
+}
+
+#surimi {
+    width: 100px;
+}
+
+#speciality {
+    width: 50px;
+}
+
+.footer-sushi {
+    width: 100%;
+    height: 25%;
+    opacity: 0.5;
+}
+/*.background-sushi
+{
+    background-color: rgba(0, 0, 0, 0.418);
+}*/
